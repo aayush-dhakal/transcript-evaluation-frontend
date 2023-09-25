@@ -1,0 +1,25 @@
+.orderSection {
+  font-size: 1.2rem;
+
+  label {
+    margin-top: 1.5rem;
+  }
+}
+
+.formValidationError {
+  color: #db1414;
+  font-size: 1.08rem;
+  margin-top: 5px;
+}
+
+.payElement {
+  margin-left: 1rem;
+}
+
+.signupTag {
+  margin-left: 0.5rem;
+
+  &:hover {
+    color: blue;
+  }
+}

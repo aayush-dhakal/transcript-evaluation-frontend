@@ -1,0 +1,25 @@
+.serviceSection {
+  height: 100%;
+  margin: auto;
+}
+
+.serviesLeftSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .servicesSubText {
+    font-size: 1.25rem;
+    padding: 1.2rem 0;
+    color: rgb(94, 94, 94);
+  }
+
+  // if windows screen is 900px or bigger then add the styles
+  @media screen and (min-width: 900px) {
+    padding-left: 6rem;
+  }
+}
+
+.serviesRightSection {
+  margin-top: 1rem;
+}
